@@ -57,5 +57,21 @@ else:
     hargaPizza += 0
     print("Maaf, pilihan anda tidak tersedia")
 
+#Apakah ingin menambah keju?
+cheese = input("Ingin menambahkan keju? (y/n): ")
+if cheese == "y":
+    hargaPizza += 13000
+elif cheese == "n":
+    hargaPizza += 0
+else:
+    hargaPizza += 0
+    print("Maaf, pilihan anda tidak tersedia")
+
+totalharga = hargaPizza
+TotalhargaPizza = totalharga
+
+print("Harga Pizza: Rp", hargaPizza)
+print("Total harga pizza: Rp", TotalhargaPizza)
+
 
 
