@@ -39,3 +39,23 @@ elif CrustPizza == "chessy bites":
 else:
     hargaPizza += 0
     print("Maaf, Crust yang anda pilih tidak tersedia")
+    
+# memilih ukuran pizza
+print("Ukuran Pizza yang anda inginkan:")
+print("Personal")
+print("Regular")
+print("Large")
+UkuranPizza = input("Pilih ukuran pizza anda : ")
+UkuranPizza = UkuranPizza.lower()
+if UkuranPizza == "personal":
+    hargaPizza += 0
+elif UkuranPizza == "regular":
+    hargaPizza += 57273
+elif UkuranPizza == "large":
+    hargaPizza += 89091
+else:
+    hargaPizza += 0
+    print("Maaf, pilihan anda tidak tersedia")
+
+
+
